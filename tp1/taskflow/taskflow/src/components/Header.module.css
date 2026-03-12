@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  background: #1B8C3E;
+  color: white;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.menuBtn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 8px;
+}
+
+.avatar {
+}
