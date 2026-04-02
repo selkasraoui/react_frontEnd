@@ -1,0 +1,30 @@
+.main{
+  flex:1;
+  padding:16px;
+  overflow:auto;
+}
+.board{
+  display:flex;
+  gap:16px;
+  align-items:flex-start;
+}
+.column{
+  min-width:260px;
+  background:#fff;
+  border-radius:12px;
+  padding:12px;
+  box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+.colTitle{
+  font-size:14px;
+  margin-bottom:10px;
+}
+.card{
+  background:#f7f7f7;
+  padding:10px;
+  border-radius:10px;
+  margin-bottom:10px;
+  cursor:default;
+  transition: transform .12s ease;
+}
+.card:hover{ transform: translateY(-2px); }
